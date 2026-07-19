@@ -13,9 +13,9 @@ The algorithm groups unlabeled data points into clusters by repeatedly assigning
 
 The dataset was generated using:
 
-python
+```python
 sklearn.datasets.make_blobs
-
+```
 # Dataset Details
 
 - 500 samples
