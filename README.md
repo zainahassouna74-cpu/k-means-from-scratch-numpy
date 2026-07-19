@@ -9,22 +9,14 @@ The goal of this project is to implement the **K-Means Clustering algorithm from
 
 The algorithm groups unlabeled data points into clusters by repeatedly assigning each point to its nearest centroid and updating the centroids until convergence.
 
-## Datasets
-The dataset was generated using:
-
-```python
-sklearn.datasets.make_blobs
-```
-
 ## Dataset
 
 The dataset was generated using:
 
-```python
+python
 sklearn.datasets.make_blobs
-```
 
-## Dataset Details
+# Dataset Details
 
 - 500 samples
 - 2 features
