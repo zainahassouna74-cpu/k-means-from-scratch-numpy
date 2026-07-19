@@ -13,29 +13,47 @@ The algorithm groups unlabeled data points into clusters by repeatedly assigning
 
 The dataset was generated using:
 
+python
+## Dataset
+
+The dataset was generated using:
+
 ```python
-Dataset Details
-500 samples
-2 features
-4 clusters
-Random state: 42
-Algorithm Steps
-Initialize k random centroids.
-Calculate the Euclidean distance between each point and every centroid.
-Assign each point to its nearest centroid.
-Recompute each centroid as the mean of the points assigned to it.
-Repeat the assignment and update steps until convergence.
-Return the cluster ID assigned to every data point.
-Technologies Used
-Python
-NumPy
-scikit-learn datasets
-Google Colab
-Jupyter Notebook
-Evaluation
+sklearn.datasets.make_blobs
+```
+
+## Dataset Details
+
+- 500 samples
+- 2 features
+- 4 clusters
+- Random state: 42
+
+## Algorithm Steps
+
+1. Initialize `k` random centroids.
+2. Calculate the Euclidean distance between each point and every centroid.
+3. Assign each point to its nearest centroid.
+4. Recompute each centroid as the mean of the points assigned to it.
+5. Repeat the assignment and update steps until convergence.
+6. Return the cluster ID assigned to every data point.
+
+## Technologies Used
+
+- Python
+- NumPy
+- scikit-learn datasets
+- Google Colab
+- Jupyter Notebook
+
+## Evaluation
 
 Since K-Means is an unsupervised algorithm, each predicted cluster was mapped to its majority true label.
 
-Final Result
+## Final Result
 
-Clustering Accuracy: 100%
+**Clustering Accuracy: 100%**
+
+## Project Notebook
+
+[Open the complete notebook](./K_Means_Clustering.ipynb)
