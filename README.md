@@ -54,6 +54,3 @@ Since K-Means is an unsupervised algorithm, each predicted cluster was mapped to
 
 **Clustering Accuracy: 100%**
 
-## Project Notebook
-
-[Open the complete notebook](./K_Means_Clustering.ipynb)
